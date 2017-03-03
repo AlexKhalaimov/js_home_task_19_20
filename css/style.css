@@ -188,6 +188,8 @@ nav {
       color: #f4b60d; }
     .our_service figure figcaption {
       margin-top: 30px; }
+    .our_service figure figcaption a{
+      text-decoration: none;}
     .our_service figure .img_wrapper {
       width: 260px;
       height: 260px;
