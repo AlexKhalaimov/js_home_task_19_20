@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $('#accordion-js').find('h2').click(function(){
+    $('#accordion-js').find('div').click(function(){
         $(this).next().stop().slideToggle();
     }).next().stop().hide();
-    $('#accordion-js').find('h2').click(function(){
+    $('#accordion-js').find('div').click(function(){
         $(this).toggleClass('accordion_active');
     });
 
