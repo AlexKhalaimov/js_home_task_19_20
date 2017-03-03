@@ -11,10 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
     <script src="js/lodash.js"></script>
-    <!-- <script src="js/data.json"></script> -->
-    <script src="js/script.js"></script>
+    <script src="js/my_json.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/my_script.js"></script>
+    <script src="js/script.js"></script>
     <title>Document</title>
 </head>
 
@@ -44,9 +43,9 @@
                     <li class="menu_item"><a href="#" class="menu_link">SHOP</a></li>
                 </ul>
                 <div class="nav_search">
-                    <form action="" class="nav_search_form">
+                    <form action="#" class="nav_search_form">
                         <input type="search" placeholder="Search..." class="nav_search_form_input">
-                        <input type="button" class="nav_search_form_submit"></form>
+                        <input type="button" class="nav_search_form_submit" value="#"></form>
                 </div>
             </nav>
 
@@ -100,18 +99,18 @@
         <div class="section1">
             <div class="our_service">
                     <h3>Our Services</h3>
-                    <figure><a href="#"><div class="img_wrapper"><img src="img/shedule.png" alt="shedule"><div class="overlay"></div></div></a><a  href="#" class="our_service_link">
-                            <figcaption><span>Shedule Services</span></figcaption>
-                        </a></figure>
-                    <figure><a href="#"><div class="img_wrapper"><img src="img/preventive.png" alt="preventive"><div class="overlay"></div></div></a><a href="#" class="our_service_link">
-                            <figcaption><span>Preventive Maintence</span></figcaption>
-                        </a></figure>
-                    <figure><a href="#"><div class="img_wrapper"><img src="img/tire.png" alt="tire"><div class="overlay"></div></div></a><a href="#" class="our_service_link">
-                            <figcaption><span>Tire & Wheel Services</span></figcaption>
-                        </a></figure>
-                    <figure><a href="#"><div class="img_wrapper"><img src="img/repair.png" alt="repair"><div class="overlay"></div></div></a><a href="#" class="our_service_link">
-                            <figcaption><span>Repair Services</span></figcaption>
-                        </a></figure>
+                    <figure><a href="#"><div class="img_wrapper"><img src="img/shedule.png" alt="shedule"><div class="overlay"></div></div></a>
+                            <figcaption><a  href="#" class="our_service_link"><span>Shedule Services</span></a></figcaption>
+                        </figure>
+                    <figure><a href="#"><div class="img_wrapper"><img src="img/preventive.png" alt="preventive"><div class="overlay"></div></div></a>
+                            <figcaption><a href="#" class="our_service_link"><span>Preventive Maintence</span></a></figcaption>
+                        </figure>
+                    <figure><a href="#"><div class="img_wrapper"><img src="img/tire.png" alt="tire"><div class="overlay"></div></div></a>
+                            <figcaption><a href="#" class="our_service_link"><span>Tire & Wheel Services</span></a></figcaption>
+                        </figure>
+                    <figure><a href="#"><div class="img_wrapper"><img src="img/repair.png" alt="repair"><div class="overlay"></div></div></a>
+                            <figcaption><a href="#" class="our_service_link"><span>Repair Services</span></a></figcaption>
+                        </figure>
             </div>
         </div>
 
@@ -165,14 +164,14 @@
                         <h3>Banners Place</h3>
 
                         <div id="accordion-js" class="accordion">
-                           <h2><p></p>Accordion Panel 1</h2>
-                           <p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
-                           <h2><p></p>Accordion Panel 2</h2>
-                           <p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
-                           <h2><p></p>Accordion Panel 3</h2>
-                            <p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
-                           <h2><p></p>Accordion Panel 4</h2>
-                            <p>Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+                           <div><p class="marker"></p><p class="head">Accordion Panel 1</p></div>
+                           <p class="acc_text">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+                           <div><p class="marker"></p><p class="head">Accordion Panel 2</p></div>
+                           <p class="acc_text"> Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+                           <div><p class="marker"></p><p class="head">Accordion Panel 3</p></div>
+                            <p class="acc_text">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
+                           <div><p class="marker"></p><p class="head">Accordion Panel 4</p></div>
+                            <p class="acc_text">Cum sociis natoque penatibus et magnis dis parturient mus. Pro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur momo. Cum sociis natoque penatibus et magnis dis parturient ontesmus. Nemo enim ipsam voluptatem quia ptas sit aspernatur samomoPro vel nibh et elit mollis commodo et nec augueique Nemo enim ipsam voluptatem quia ptas sit aspernatur</p>
 
                         </div>
                     </div>
@@ -193,29 +192,34 @@
     <div class="wrapper-footer">
         <footer>
             <div class="footer_menu">
+
                 <ul class="socials">
-                    <p>Socials</p>
+
+                    <li class="menu_item">Socials</li>
                     <li class="menu_item"><a href="" class="menu_link">Facebook</a></li>
                     <li class="menu_item"><a href="" class="menu_link">Flickr</a></li>
                     <li class="menu_item"><a href="" class="menu_link">Twitter</a></li>
                     <li class="menu_item"><a href="" class="menu_link">Vimeo</a></li>
                 </ul>
+
                 <ul class="links">
-                    <p>Links</p>
+                    <li class="menu_item">Links</li>
                     <li class="menu_item"><a href="" class="menu_link">How to Write a Blog</a></li>
                     <li class="menu_item"><a href="" class="menu_link">Create a Blog in 4 Steps</a></li>
                     <li class="menu_item"><a href="" class="menu_link">15 Tips to Increas</a></li>
                     <li class="menu_item"><a href="" class="menu_link">20 Blog Post Ideas</a></li>
                 </ul>
+
                 <ul class="blogroll">
-                    <p>Blogroll</p>
+                    <li class="menu_item">Blogroll</li>
                     <li class="menu_item"><a href="" class="menu_link">Blogs Blog</a></li>
                     <li class="menu_item"><a href="" class="menu_link">Roll Up Roll Up</a></li>
                     <li class="menu_item"><a href="" class="menu_link"> Blog Free</a></li>
                     <li class="menu_item"><a href="" class="menu_link"> Wordpress Blog</a></li>
                 </ul>
+
                 <ul class="about_us">
-                    <p>About us</p>
+                    <li class="menu_item">About us</li>
                     <li class="menu_item"><a href="" class="menu_link">Agriculture</a></li>
                     <li class="menu_item"><a href="" class="menu_link"> Harvest</a></li>
                     <li class="menu_item"><a href="" class="menu_link"> Company news</a></li>
