@@ -305,7 +305,16 @@ nav {
         height: 35px;
         text-indent: 10px;
         border-top: 1px solid #ddd; }
-      .news_banners .banners .accordion h2 {
+    .news_banners .banners .accordion div{
+        cursor: pointer;
+        background-color: white;
+        height: 35px;
+        /*text-indent: 10px;*/
+        border-top: 1px solid #ddd;
+    }
+        .head {
+           margin: 0;
+           padding: 0;
         cursor: pointer;
         background-color: white;
         font-family: "Ubuntu", sans-serif;
@@ -314,11 +323,13 @@ nav {
         color: #2a2d32;
         height: 35px;
         text-indent: 10px;
-        border-top: 1px solid #ddd;
+
         text-align: left;
         line-height: 35px;
         text-transform: uppercase; }
-        .news_banners .banners .accordion h2 p {
+        .news_banners .banners .accordion .marker {
+            margin: 0;
+            padding: 0;
           background-color: white;
           border-right: 1px solid #e8e8e8;
           width: 35px;
@@ -327,7 +338,7 @@ nav {
           background-image: url(../img/plus.png);
           background-repeat: no-repeat;
           background-position: center center; }
-      .news_banners .banners .accordion p {
+      .news_banners .banners .accordion .acc_text {
         color: #8a8a8a;
         font-family: Arial;
         font-size: 13px;
@@ -335,11 +346,11 @@ nav {
         line-height: 20px;
         margin: 0;
         padding: 30px 10px 40px 35px; }
-  .news_banners #accordion-js .accordion_active {
+  .news_banners .banners #accordion-js .accordion_active .head{
     background-color: #f4b60d;
     border-left: 1px solid #e8e8e8;
     color: white; }
-  .news_banners #accordion-js .accordion_active p {
+  .news_banners #accordion-js .accordion_active .marker {
     background-color: #f4b60d;
     border-right: 1px solid #e8e8e8;
     width: 35px;
@@ -350,6 +361,7 @@ nav {
     background-image: url(../img/minus.png);
     background-repeat: no-repeat;
     background-position: center center; }
+
 
 .sponsors {
   width: 1160px; }
@@ -392,11 +404,18 @@ footer {
         opacity: 1; }
     footer .footer_menu ul:last-child {
       padding: 60px 0px 0 0; }
-    footer .footer_menu p {
+    footer .footer_menu ul li:first-child {
       color: white;
       font-size: 16px;
       font-weight: 500;
-      line-height: 24px; }
+      line-height: 24px;
+      padding-bottom: 50px;
+      text-transform: uppercase;
+
+  }
+  footer .footer_menu ul li:nth-child(2){
+      border-top: none;
+  }
 
 .contacts {
   width: 1160px;
